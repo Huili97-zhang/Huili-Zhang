@@ -28,18 +28,26 @@ body {
     padding: 40px;
     background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
     color: white;
+    align-items: center;
 }
 
 .profile-left {
     flex: 0 0 250px;
     margin-right: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
 }
 
 .profile-img {
     width: 100%;
+    max-width: 220px;
     border-radius: 8px;
     border: 3px solid white;
     box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    object-fit: cover;
+    aspect-ratio: 1/1;
 }
 
 .profile-right {
