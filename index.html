@@ -8,77 +8,56 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            < img src="images/profile.jpg" alt="Your Name" class="profile-img">
-            <h1>Huili Zhang</h1>
-            <p class="title">PostDoc</p >
-            <p class="institution">University of Wisconsin–Madison</p >
-        </div>
-    </header>
-
-    <nav>
-        <ul>
-            <li>About</li>
-            <li>Research</li>
-            <li>Education</li>
-            <li>Contact</li>
-        </ul>
-    </nav>
-
-    <main class="container">
-        <section id="about">
-            <h2>About Me</h2>
-            <p>Write a brief introduction about yourself here. Include your research interests, current projects, and any other relevant information.</p >
-        </section>
-
-        <section id="research">
-            <h2>Research Interests</h2>
-            <ul>
-                <li>Research interest 1</li>
-                <li>Research interest 2</li>
-                <li>Research interest 3</li>
-                <!-- Add more as needed -->
-            </ul>
+    <div class="container">
+        <!-- 上半部分：个人信息 -->
+        <section class="profile-section">
+            <div class="profile-left">
+                < img src="images/profile.jpg" alt="Your Name" class="profile-img">
+            </div>
             
-            <div class="external-links">
-                <a href="https://www.researchgate.net/profile/your-profile" target="_blank" class="researchgate">
-                    <i class="fab fa-researchgate"></i> ResearchGate Profile
-                </a >
-                <a href="https://orcid.org/your-orcid" target="_blank" class="orcid">
-                    <i class="fab fa-orcid"></i> ORCID Profile
-                </a >
-            </div>
-        </section>
-
-        <section id="education">
-            <h2>Education</h2>
-            <div class="education-item">
-                <h3>Degree Name</h3>
+            <div class="profile-right">
+                <h1>Your Name</h1>
+                <p class="position">Current Position</p >
                 <p class="institution">Institution Name</p >
-                <p class="date">Year - Year</p >
+                
+                <div class="contact-info">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> your.email@example.com</li>
+                        <li><i class="fas fa-phone"></i> +1 (123) 456-7890</li>
+                    </ul>
+                </div>
+                
+                <div class="external-links">
+                    <h3>Academic Profiles</h3>
+                    <a href=" " target="_blank" class="researchgate">
+                        <i class="fab fa-researchgate"></i> ResearchGate
+                    </a >
+                    <a href="https://orcid.org/your-orcid" target="_blank" class="orcid">
+                        <i class="fab fa-orcid"></i> ORCID
+                    </a >
+                    <a href="docs/your_cv.pdf" target="_blank" class="cv-download">
+                        <i class="fas fa-file-pdf"></i> Download CV
+                    </a >
+                </div>
             </div>
-            <!-- Add more education items as needed -->
         </section>
 
-        <section id="contact">
-            <h2>Contact</h2>
-            <ul class="contact-info">
-                <li><i class="fas fa-envelope"></i> </li>
-                <li><i class="fas fa-phone"></i> +1 (123) 456-7890</li>
-                <li><i class="fas fa-map-marker-alt"></i> Your Address, City, Country</li>
+        <!-- 下半部分：研究兴趣 -->
+        <section class="research-section">
+            <h2>Research Interests</h2>
+            <ul class="research-list">
+                <li>Research area 1 with brief description</li>
+                <li>Research area 2 with brief description</li>
+                <li>Research area 3 with brief description</li>
             </ul>
         </section>
-    </main>
+    </div>
 
     <footer>
-        <div class="container">
-            <p>&copy; <span id="year"></span> Your Name. All rights reserved.</p >
-        </div>
+        <p>&copy; <span id="year"></span> Your Name. All rights reserved.</p >
     </footer>
 
-    <script>
-        document.getElementById('year').textContent = new Date().getFullYear();
-    </script>
+    <script src="main.js"></script>
 </body>
 </html>
