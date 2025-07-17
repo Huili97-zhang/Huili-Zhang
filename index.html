@@ -1,63 +1,31 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Academic Profile</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-</head>
-<body>
-    <div class="container">
-        <!-- 上半部分：个人信息 -->
-        <section class="profile-section">
-            <div class="profile-left">
-                < img src="images/profile.jpg" alt="Your Name" class="profile-img">
-            </div>
-            
-            <div class="profile-right">
-                <h1>Your Name</h1>
-                <p class="position">Current Position</p >
-                <p class="institution">Institution Name</p >
-                
-                <div class="contact-info">
-                    <h3>Contact</h3>
-                    <ul>
-                        <li><i class="fas fa-envelope"></i> your.email@example.com</li>
-                        <li><i class="fas fa-phone"></i> +1 (123) 456-7890</li>
-                    </ul>
-                </div>
-                
-                <div class="external-links">
-                    <h3>Academic Profiles</h3>
-                    <a href=" " target="_blank" class="researchgate">
-                        <i class="fab fa-researchgate"></i> ResearchGate
-                    </a >
-                    <a href="https://orcid.org/your-orcid" target="_blank" class="orcid">
-                        <i class="fab fa-orcid"></i> ORCID
-                    </a >
-                    <a href="docs/your_cv.pdf" target="_blank" class="cv-download">
-                        <i class="fas fa-file-pdf"></i> Download CV
-                    </a >
-                </div>
-            </div>
-        </section>
-
-        <!-- 下半部分：研究兴趣 -->
-        <section class="research-section">
-            <h2>Research Interests</h2>
-            <ul class="research-list">
-                <li>Research area 1 with brief description</li>
-                <li>Research area 2 with brief description</li>
-                <li>Research area 3 with brief description</li>
-            </ul>
-        </section>
+<!-- 上半部分：个人信息 -->
+<section class="profile-section">
+    <div class="profile-left">
+        < img src="images/profile.jpg" alt="Your Name" class="profile-img">
     </div>
+    
+    <div class="profile-right">
+        <h1>Your Name</h1>
+        <p class="position">Current Position</p >
+        <p class="institution">Institution Name</p >
+        
+        <!-- 研究兴趣描述（原联系方式位置） -->
+        <div class="research-summary">
+            <h3>Research Interests</h3>
+            <p>My research focuses on [领域1], [领域2], and [领域3]. Specifically, I investigate [具体方向1] through [方法1], and explore [具体方向2] using [方法2]. My work aims to [研究目标].</p >
+        </div>
+    </div>
+</section>
 
-    <footer>
-        <p>&copy; <span id="year"></span> Your Name. All rights reserved.</p >
-    </footer>
-
-    <script src="main.js"></script>
-</body>
-</html>
+<!-- 底部链接栏 -->
+<div class="link-bar">
+    <a href=" " target="_blank" class="researchgate">
+        <i class="fab fa-researchgate"></i> ResearchGate
+    </a >
+    <a href="https://orcid.org/your-orcid" target="_blank" class="orcid">
+        <i class="fab fa-orcid"></i> ORCID
+    </a >
+    <a href="docs/your_cv.pdf" target="_blank" class="cv-download">
+        <i class="fas fa-file-pdf"></i> Download CV
+    </a >
+</div>
