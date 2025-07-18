@@ -71,6 +71,12 @@ body {
     color: rgba(255,255,255,0.9);
 }
 
+.email {
+    font-style: italic;
+    margin-bottom: 25px;
+    color: rgba(255,255,255,0.9);
+}
+
 /* 研究兴趣区域 */
 .research-summary {
     margin: 20px 0;
