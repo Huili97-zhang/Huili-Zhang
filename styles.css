@@ -88,11 +88,6 @@ body {
   text-decoration: underline;
 }
 
-/* 可选：添加图标 */
-.email a:first-child::before {
-  content: "📧 ";
-  margin-right: 5px;
-}
 
 
 /* 研究兴趣区域 */
