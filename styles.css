@@ -78,13 +78,13 @@ body {
 }
 
 .email a {
-  color: #2c3e50;
+  color: #1a3e72;
   text-decoration: none;
   transition: color 0.3s;
 }
 
 .email a:hover {
-  color: #3498db;
+  color: #0077ff;
   text-decoration: underline;
 }
 
