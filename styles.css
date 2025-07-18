@@ -71,11 +71,29 @@ body {
     color: rgba(255,255,255,0.9);
 }
 
+/* 邮箱样式 */
 .email {
-    font-style: italic;
-    margin-bottom: 25px;
-    color: rgba(255,255,255,0.9);
+  margin: 10px 0;
+  font-size: 0.9em;
 }
+
+.email a {
+  color: #2c3e50;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.email a:hover {
+  color: #3498db;
+  text-decoration: underline;
+}
+
+/* 可选：添加图标 */
+.email a:first-child::before {
+  content: "📧 ";
+  margin-right: 5px;
+}
+
 
 /* 研究兴趣区域 */
 .research-summary {
